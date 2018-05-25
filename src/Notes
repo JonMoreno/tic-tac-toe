@@ -1,0 +1,35 @@
+
+
+!When you want to aggregate data from multiple children or to have two child 
+components communicate with EACH OTHER, move the state upwards so that it 
+lives in the PARENT COMPONENT. The parent can then pass the state back down 
+to the children via props, so that the child components are always in sync 
+with each other and with the parent.
+   
+!Controlled components
+    When a component receives its value from the Parent component. 
+    However, child component emits event to parent first.
+
+!Immutability Is Important
+    This narrows down to making a copy of the object instead of passing the 
+    original object with all its bagage.
+    -Easier Undo/Redo and Time Travel
+        Avoiding mutation lets us keep a reference to older versions of the 
+        data and switch between them if the need arises.
+    -Tracking Changes
+        Determining how a immutable object has changed is much simpler. No
+        need to traverse the entire Object tree.
+    -Determining When to Re-render in React
+        The biggest benefit of immutability in React comes when you build 
+        simple pure components. Since immutable data can more easily 
+        determine if changes have been made, it also helps to determine 
+        when a component requires being re-rendered.
+    
+!Functional Components
+    For simpler component that only require the render method React
+    support a much simpler syntax called functional components.
+
+!Difference between STATE and PROPS
+    -Both state and props are plain JavaScript Objects.
+    -Props: get passed to the component(similar to arguments passed to a function).
+    -State: is managed within the component( similar to variables declared with in a function).

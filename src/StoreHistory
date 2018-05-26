@@ -1,0 +1,11 @@
+
+!Here will make it possible to revisit old states of the tic tac toe game
+ so we can see what it look like before any previous moves.
+
+!We will pull the history state from Board to the parent component 
+>(Game Component). That way we will have all the information we
+need at the top level.
+
+
+
+

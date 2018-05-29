@@ -1,0 +1,49 @@
+
+/************************** 
+  *| Global Variables |*
+***************************/
+    $spring-green: #4fc08d;
+    $sea-green: #5bc8ac;
+    $night-blue: #2c3e50;
+    $blue-gray: #282c34;
+    $dark-night: #20232a;
+    $slate: #626d71;  
+    $coral:  #ff6666;
+    $bounty: #4bbcf4;
+    $tropic-blue: #61dafb;
+
+/************************** 
+  *| Helper Classes |*
+***************************/
+    // Text:
+    .text-coral{
+        color: $coral !important;
+    }
+    .text-sea-green{
+        color: $sea-green;
+    }
+    .text-night-blue{
+        color: $night-blue !important;
+    }
+    .text-blue-gray{
+        color: $blue-gray;
+    }
+    .text-dark-night{
+        color: $dark-night;
+    }
+    .text-slate{
+        color: $slate;
+    }
+    .text-bounty{
+        color: $bounty !important;
+    }
+    .text-tropic-blue{
+        color: $tropic-blue;
+    }
+    // Background:
+    .bg-dark-night{
+        background-color: $dark-night;
+    }
+    .bg-tropic-blue{
+        background-color: $tropic-blue;
+    }

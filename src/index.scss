@@ -1,0 +1,61 @@
+@import 'bootstrap/scss/bootstrap.scss';
+@import  url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600");
+@import "_variables.scss";
+
+body {
+    padding: 20px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    background-color: $blue-gray;
+} 
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+.game-master-header{
+    color: $coral;
+    font-size: 4.0rem;
+    line-height: 1.6;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 90px;
+    margin-top: 1rem;
+    background-color: $dark-night;
+}
+.game-list-header{
+    color: $coral !important;
+    font-weight: bolder;
+    border: none !important;
+    padding: 10px 10px 12px 10px !important;
+    background-color: $dark-night !important;
+}
+.game-list{
+    color: $tropic-blue;
+    font-weight: bolder;
+    border: none !important;
+    padding: 8px 10px 4px 10px !important;
+    background-color: $dark-night;
+}
+.square {
+    background: #fff;
+    border-radius: 4px;
+    border: 2px solid #999;
+    float: left;
+    color: $bounty;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 20vh;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 14vw;
+}
+.square:focus {
+    outline: none;
+}

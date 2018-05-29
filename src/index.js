@@ -1,11 +1,14 @@
 import React from 'react';
-import Game from './Game';
+import Game from './components/Game';
 import ReactDOM from 'react-dom';
-import './index.css';
+import "font-awesome/css/font-awesome.min.css";
+
+require('./bootstrap.js'); 
   
-// ========================================
+
 ReactDOM.render(
-  <Game />,
-  document.getElementById('root')
+      <Game />
+
+  , document.getElementById('root')
 );
   
